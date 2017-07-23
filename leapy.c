@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<conio.h>
-int main()
+void main()
 {
 int n;
 printf("Enter the year");
@@ -13,5 +13,4 @@ elseif((n%4)==0)
 printf("leap year",n);
 else
 printf("not a leap year",n);
-return 0;
 }
