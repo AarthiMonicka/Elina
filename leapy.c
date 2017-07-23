@@ -13,4 +13,5 @@ elseif((n%4)==0)
 printf("leap year",n);
 else
 printf("not a leap year",n);
+return 0;
 }
